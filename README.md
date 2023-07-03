@@ -8,6 +8,7 @@
 
 Only works in bash shell. you need python3 and docker installed.
 
+* clone submodule (ssl_cert_generator) by `git submodule update --init --recursive`
 * modify `setup.sh` to change the domain name and service port.
 * run `setup.sh` to generate certificates and configure nginx virtual host
 * add generated `/root/rootCA.pem` to your OS's trusted root CA store - check the link above for details
